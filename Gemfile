@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 gemspec
 
-gem "rubysl", :platform => :rbx
+gem 'rubysl', platform: :rbx
