@@ -16,8 +16,6 @@ Gem::Specification.new do |s|
     Cross platform and multiple ruby implementation support thanks to ffi.
   EOF
 
-  s.add_dependency 'ffi-compiler', '>= 1.0', '< 2.0'
-
   s.add_development_dependency 'rake',  '~> 13.0'
   s.add_development_dependency 'rspec', '~> 3.5'
   s.add_development_dependency 'yard',  '~> 0.9'

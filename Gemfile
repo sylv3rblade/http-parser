@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
-gemspec
 
-gem 'rubysl', platform: :rbx
+gem 'ffi-compiler2', github: 'alexeymorozov/ffi-compiler'
+
+gemspec
